@@ -15,23 +15,8 @@
 .grey-text{color:#838282}
 
 /*  MENU */
-.logo{
-    width: 90px;
-}
-.barra{
+.barraDeCima{
     display:flex;
-}
-.menu{
-    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
-    width: 1444px;
-    height: 848px;
-}
-
-.navbar-itens a{
-    color:#54D1BB
 }
 
 /*  CONTACT */
-.contact{
-    background:linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
-}
