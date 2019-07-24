@@ -1,6 +1,16 @@
+html, body{
+    padding:0px;
+    margin:0px;
+    width: 100%;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+--mainColor:#54D1BB;
+}
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
-*{font-family: 'Roboto', sans-serif;}
 
 .green-text {color:#54D1BB}
 
@@ -15,8 +25,60 @@
 .grey-text{color:#838282}
 
 /*  MENU */
-.barraDeCima{
-    display:flex;
+body{
+    display:block;
+}
+.menu{
+    padding:100px 150px;
+    width:100%;
+    background:linear-gradient(180deg, #2f4076 0%, rgba(47, 64, 118, 0.84) 100%);
 }
 
-/*  CONTACT */
+.barraDeCima{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.botao{
+    margin:50px;
+    color:#54D1BB;
+    list-style: none;
+}
+.navbar:hover{
+    color:white;
+}
+.Profile{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.imagemProfile{
+    padding:20px 0x;
+    margin:100px 100px 0px;
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+}
+.green{
+    color:#54D1BB;
+}
+.tituloProfile{
+    margin:150px 0px;
+    font-size: 35px;
+}
+
+.titulo{
+    padding:0px;
+    margin:5px;
+    color:#FFFFFF;
+}
+
+.Sobre{
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    margin:40px;
+    font-size: 25px;
+}
+
