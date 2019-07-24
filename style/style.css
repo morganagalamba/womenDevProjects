@@ -43,9 +43,9 @@ body{
 .botao{
     margin:50px;
     color:#54D1BB;
-    list-style: none;
+    text-decoration: none;
 }
-.navbar:hover{
+.botao:hover{
     color:white;
 }
 .Profile{
